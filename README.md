@@ -1,5 +1,3 @@
-# python-tasks
-
 # Task 1 - Algorithm Test
 
 Implement a string compression using python. For example, aaaabbbccddddddee would become a4b3c2d6e2. If the length of the string is not reduced, return the original string.
@@ -34,5 +32,14 @@ Each node will have an infinite number of both inbound and outbound links.
 2 -> 4 -> 6 -> 2 -> 5 -> 6 = 2, 6 * since router 2 has 1 inbound link and 2 outbound links and 6 has 2 inbound links and 1 outbound link
 
 # Task 3 - Django Test
+
+## Problem Details
+* Upon user signup, we want the user to sign up for a free trial of a Aben Premium membership which includes 7 days of premium service. Afterwards the user will be charged $49.99 per month.
+* When a user decides to sign up, the Subscription must be activated and we must track trial expiration. After 7 days, the initial charge of $49.99 must be charged on the test credit card.
+* On the Stripe interface, this must appear as a trial subscription.
+* The user can cancel their subscription at any time. Upon cancellation, the subscription is marked as cancelled and would also appear on the Stripe interface as a cancelled subscription.
+
+
+
 
 
